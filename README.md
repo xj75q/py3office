@@ -12,10 +12,10 @@ pip install -r requirements.txt
 
 ### 【使用命令】
 python pdf_combine.py --help  可查看输入参数
-python pdf_combine.py -i "G:\\小说pdf_转换前\\" -o "G:\\小说pdf_转换后\\"  
+python pdf_combine.py -i "G:\\\小说pdf_转换前\\\" -o "G:\\\小说pdf_转换后\\\"  
 
 
-**注：在win上使用，里面的路径为“\\”(双斜杠)**
+**注：在win上使用，里面的路径为“\\\”(双斜杠)**
 
 ###  【其他】
 使用full_ts2mp4.py 需在win上安装[ffmpeg](https://ffmpeg.org/) ，将py文件中的__init__里的ffmpeg路径修改掉
