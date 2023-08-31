@@ -17,6 +17,7 @@
 
 **注：在win上使用，里面的路径为“\\\”(双斜杠)**
 
+
 - send_task2dida.py脚本 (发送任务到滴答清单)
 ```
 使用方法：
@@ -34,6 +35,13 @@
     - pip install tzlocal
     - pip install requests
     - pip install pyperclip
+
+如果想在命令行使用此这个发送到滴答清单的python脚本，执行一下命令添加alias
+```
+vi ~/.bashrc
+alias task="python /home/send2dida/send_task2dida.py" #添加此行
+source ~/.bashrc
+```
 
 ###  【其他】
 使用full_ts2mp4.py 需在win上安装[ffmpeg](https://ffmpeg.org/) ，将py文件中的__init__里的ffmpeg路径修改掉
