@@ -19,7 +19,7 @@ class SendTask2Dida(object):
         self.TASK_API_URL = self.BASE_URL + "/api/v2/task"
         self.PROJECT_API_URL = self.BASE_URL + "/api/v2/projects"
         self.LOGIN_URL = self.BASE_URL + "/api/v2/user/signon?wc=true&remember=true"
-        self.CFG = os.getcwd() + os.path.sep + ".ticktick"
+        self.CFG = os.path.dirname(__file__) + os.path.sep + ".ticktick"
 
     def read_config(self):
         if os.path.exists(self.CFG) == False:
