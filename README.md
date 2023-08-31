@@ -22,13 +22,13 @@
 ```
 使用方法：
         1> 登录(先登录)
-          python login <mail> <pwd>
+          python send_task2dida.py login <mail> <pwd>
         2> 配置默认项目（第二步设置默认项目）
-          python project <projectName>
+          python send_task2dida.py project <projectName>
         3> 创建任务[只包含标题]（第三部创建任务）
-          python <tasktitle>
-        4> 创建任务[标题+内容]
-          python <tasktitle> <taskcontent>
+          python send_task2dida.py <tasktitle>
+        4> 创建send_task2dida.py 任务[标题+内容]
+          python send_task2dida.py <tasktitle> <taskcontent>
         5> 创建任务[标题+剪切板内容]
 ```
 所需其他包：
