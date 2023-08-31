@@ -10,3 +10,6 @@ python-pptx==0.6.21
 requests==2.31.0
 urllib3==2.0.4
 XlsxWriter==3.1.2
+tzlocal==4.2
+pyperclip==1.8.2
+

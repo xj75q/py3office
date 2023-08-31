@@ -17,6 +17,24 @@
 
 **注：在win上使用，里面的路径为“\\\”(双斜杠)**
 
+- send_task2dida.py脚本 (发送任务到滴答清单)
+```
+使用方法：
+        1> 登录(先登录)
+          python login <mail> <pwd>
+        2> 配置默认项目（第二步设置默认项目）
+          python project <projectName>
+        3> 创建任务[只包含标题]（第三部创建任务）
+          python <tasktitle>
+        4> 创建任务[标题+内容]
+          python <tasktitle> <taskcontent>
+        5> 创建任务[标题+剪切板内容]
+```
+所需其他包：
+    - pip install tzlocal
+    - pip install requests
+    - pip install pyperclip
+
 ###  【其他】
 使用full_ts2mp4.py 需在win上安装[ffmpeg](https://ffmpeg.org/) ，将py文件中的__init__里的ffmpeg路径修改掉
 
